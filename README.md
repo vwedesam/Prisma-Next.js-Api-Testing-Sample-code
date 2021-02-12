@@ -1,6 +1,7 @@
 # Prisma-Next.js-Api-Testing-Sample-code
 
-The Sample Code Show how to setup an environment for testing your **Next.js** Api endpoints with **Prisma**
+The **Sample** **Code** shows how to setup an environment for testing your **Next.js** Api endpoints with **Prisma**
+> this Setup uses [mocha](https://mochajs.org/): feature-rich JavaScript test framework and [chai](https://www.chaijs.com): assertion library
 
 
 ##  Installation
@@ -27,6 +28,7 @@ Next.js is an open-source React front-end development web framework that enables
 
 ### Sample Code 
 
+#### 1 code prep
 ``` js
 test/index.js
 
@@ -49,7 +51,18 @@ test/index.js
         }
 
 
+``` 
+
+### Config
+ > add to package.json
+``` js
+    "mocha": {
+        "spec": "test/api"
+    }
 ```
+ > to specify test directory for mocha
+ 
+#### 2 Test Suite
 
 ```  js
 test/api/book.js
@@ -110,3 +123,8 @@ describe("book", () => {
 
 ``` 
 
+
+
+## License
+
+This project is released under the [MIT](http://opensource.org/licenses/MIT) license.
