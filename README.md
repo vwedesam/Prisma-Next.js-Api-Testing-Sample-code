@@ -1,6 +1,6 @@
 # Prisma-Next.js-Api-Testing-Sample-code
 
-The **Sample** **Code** shows how to setup an environment for testing your **Next.js** Api endpoints with **Prisma**
+The **Sample** **Code** shows how to setup an environment for testing your **Next.js** Api endpoints with **Prisma Client**
 > this Setup uses [mocha](https://mochajs.org/): feature-rich JavaScript test framework and [chai](https://www.chaijs.com): assertion library
 
 
